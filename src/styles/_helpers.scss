@@ -1,0 +1,30 @@
+//flex
+.d-flex {
+   display: flex;
+}
+
+.flex-col {
+   flex-direction: column;
+}
+
+//gap
+.gap-5 {
+    gap: 0.5rem;
+}
+
+.gap-10 {
+    gap: 1rem;
+}
+
+.gap-15 {
+    gap: 1.5rem;
+}
+
+.gap-20 {
+    gap: 2rem;
+}
+
+//size
+.w-100 {
+   width: 100%;
+}

@@ -1,0 +1,26 @@
+// styles.scss
+@import 'styles/variables';
+@import 'styles/reset';
+@import 'styles/helpers';
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $dark;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 400px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  height: 100vh;
+}
+  
