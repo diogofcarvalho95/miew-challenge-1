@@ -1,0 +1,37 @@
+@import '../../../styles/variables';
+
+.input-field {
+  width: 100%;
+  input {
+    border: 1px solid $light;
+    padding: 10px;
+    color: $dark;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    -webkit-appearance: none;
+    &:focus {
+      border-color: $primary-100;
+      outline: 1px solid $primary-100;
+    }
+  }
+}
+
+.select-options {
+  width: 100%;
+  select {
+    border: 1px solid $light;
+    padding: 10px;
+    color: $dark;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    -webkit-appearance: none;
+    &:focus {
+      border-color: $primary-100;
+      outline: 1px solid $primary-100;
+    }
+  }
+}

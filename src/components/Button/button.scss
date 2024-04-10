@@ -2,6 +2,8 @@
 
 .button  {
     display: block;
+    cursor: pointer;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     padding: .75rem;
@@ -9,19 +11,20 @@
     font-weight: 600;
     border-radius: 0.5rem;
     transition: all 0.4s ease;
+    appearance: none;
+    border: none;
     &--primary {
         background-color: $primary-100;
         color: #fff;
         &:hover, &:focus {
-            background-color: $primary-20;
-            color: $primary-100;
+            background-color: $dark;
         }
     }
     &--secondary {
         background-color: $primary-20;
         color: $primary-100;
         &:hover, &:focus {
-            background-color: $primary-100;
+            background-color: $dark;
             color: #fff;
         }
     }
