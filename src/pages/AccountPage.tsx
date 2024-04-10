@@ -31,7 +31,7 @@ const AccountPage: React.FC = () => {
   const [showForm, setShowForm] = useState(false);
 
   const handleAddTransaction = (newTransaction: Transaction) => {
-    const updatedTransactions = [...transactions, newTransaction];
+    const updatedTransactions = [newTransaction, ...transactions];
     setTransactions(updatedTransactions);
     setBalance(calculateBalance(updatedTransactions));
     setShowForm(false);
